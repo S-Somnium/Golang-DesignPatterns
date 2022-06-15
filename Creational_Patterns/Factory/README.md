@@ -4,9 +4,6 @@ We need to create an interface that is common to all objects of the factory. Thi
 # Applicability
 Encapsulate the logic for creating objects. This is especially useful in Go because it is a statically typed language. This means that the type of an object needs to be known at compile time. The Simple Factory pattern helps to abstract away this type information so that objects can be created without knowing their type ahead of time.
 
-# Benefits
-It improves the flexibility of the application and makes it easier to manage the object creation. It also makes the code more readable and maintainable.
-
 # Advantages
  1-  You avoid tight coupling between the creator and the concrete products.
  2-  You can produce products without specifying their concrete classes.

@@ -5,9 +5,6 @@ The builder pattern is used to create instances of complex objects step by step.
 when is need to create complex object step by step and the object creation process can be generalized.
 The created object should be independent of the creation process. This means that the same construction process can create different representations of the object. The construction process must allow different representations for the object that is being created.
 
-# Benefits
-The builder design pattern provides a way to create objects that are complex or have many dependencies. The builder pattern allows for the construction of complex objects to be done in a step-by-step fashion, with each step having its own method. This allows for the construction process to be customized as needed.
-
 # Advantages
 1- It separates the construction of a complex object from its representation so that the same construction process can create different representations.
 2- It allows for better control over the construction process, making it possible to produce different types of products from the same set of construction instructions.

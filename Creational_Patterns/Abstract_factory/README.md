@@ -5,9 +5,6 @@ Basically it's a factory of factories.
 # Applicability
 Can be used in any situation where you need to create objects that belong to a certain family of objects. This might be objects that are all related to each other in some way, or that all serve a similar purpose.
 
-# Benefits
-Abstract factories can be used to provide a layer of abstraction between a client and a concrete implementation. This can allow for more flexibility when changing implementations.
-
 # Advantages
 1-Provides a way to encapsulate a group of individual factories that have a common theme.
 2-Ensures that all products returned by the factory are compatible.
